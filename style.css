@@ -1,4 +1,6 @@
-.reveal .slides section img {
-    max-height: 80vh;
-    max-width: 90vw;
+.reveal .slides section h2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
 }
