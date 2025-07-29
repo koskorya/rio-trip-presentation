@@ -3,29 +3,19 @@ body {
 }
 
 .reveal .slides section {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start; /* Aligns content to the top */
-    align-items: center;
-    height: 100%;
     text-align: center;
-    padding-top: 5vh; /* Add some padding at the top */
 }
 
 .reveal .slides section h2 {
-    margin-bottom: 30px;
-    font-weight: 700;
-}
-
-.reveal .slides section img {
-    max-height: 70vh;
-    max-width: 90vw;
-    object-fit: contain;
-}
-
-.reveal .slides section[data-background-image] h2 {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
     padding: 15px 25px;
     border-radius: 10px;
+    font-weight: 700;
+    width: auto;
+    white-space: nowrap;
 }
