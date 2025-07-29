@@ -1,9 +1,9 @@
-import Reveal from 'reveal.js';
-import Markdown from 'reveal.js/plugin/markdown/markdown.esm.js';
-import Highlight from 'reveal.js/plugin/highlight/highlight.esm.js';
-import Notes from 'reveal.js/plugin/notes/notes.esm.js';
+import Reveal from 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.esm.js';
+import Markdown from 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/markdown/markdown.esm.js';
+import Highlight from 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/highlight/highlight.esm.js';
+import Notes from 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/notes/notes.esm.js';
 
-let deck = new Reveal({
-   plugins: [ Markdown, Highlight, Notes ]
-})
-deck.initialize();
+Reveal.initialize({
+    hash: true,
+    plugins: [ Markdown, Highlight, Notes ]
+});
