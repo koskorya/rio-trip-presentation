@@ -2,20 +2,22 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.reveal .slides section {
-    text-align: center;
-}
-
-.reveal .slides section h2 {
+.title-overlay {
     position: absolute;
     top: 5%;
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 10;
+    width: 100%;
+    text-align: center;
+}
+
+.title-overlay h2 {
+    background-color: rgba(0, 0, 0, 0.7);
     color: white;
     padding: 15px 25px;
     border-radius: 10px;
     font-weight: 700;
-    width: auto;
+    display: inline-block;
     white-space: nowrap;
 }

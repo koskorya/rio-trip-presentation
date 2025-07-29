@@ -5,5 +5,6 @@ import Notes from 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin
 
 Reveal.initialize({
     hash: true,
+    center: false, // Disable vertical centering
     plugins: [ Markdown, Highlight, Notes ]
 });
